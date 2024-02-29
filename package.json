@@ -1,0 +1,17 @@
+{
+  "name": "Desafio_01",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Desafio 01 - fundamentos Node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "import_csv": "node src/stream/read-csv.js"
+  },
+  "author": "Guilherme Ennes",
+  "license": "MIT",
+  "dependencies": {
+    "csv": "^6.3.7",
+    "csv-parse": "^5.5.4"
+  }
+}
